@@ -1,6 +1,7 @@
 def prime?(num)
-  number_array <<
-  i += 1
-end
-  number_array.none?{ |dividend| num % dividend == 0} && num !=1 && num > 0
+  if num < 0 or num == num == 1
+    return false
+  else
+    (2..num-1).to_a.all? do |int|
+      num % int != 0
 end
